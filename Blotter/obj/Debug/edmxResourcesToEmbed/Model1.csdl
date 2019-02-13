@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="blotterModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="tbl_business">
+    <Key>
+      <PropertyRef Name="cn" />
+    </Key>
+    <Property Name="cn" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="C_Permitee" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="BusinessName" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="BusinessAddress" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="Representative" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="ContactNo" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="EmailAddress" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="formOwnership" Type="Int32" />
+    <Property Name="BusinessNature" Type="Int32" />
+    <Property Name="AssessmentDate" Type="DateTime" />
+    <Property Name="PermitNo" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="Claimed" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tbl_certificate">
+    <Key>
+      <PropertyRef Name="cn" />
+    </Key>
+    <Property Name="cn" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="Purpose" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="ForTo" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="EncodedBy" Type="Int32" />
+    <Property Name="DateEncoded" Type="DateTime" />
+    <Property Name="Remark" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tbl_clearance">
+    <Key>
+      <PropertyRef Name="cn" />
+    </Key>
+    <Property Name="cn" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="CertificateNo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Purpose" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="OrNo" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="Amount" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="DateIssued" Type="DateTime" />
+    <Property Name="Issuedat" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Photo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="RF" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="LF" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Remark" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tbl_dispute">
+    <Key>
+      <PropertyRef Name="cn" />
+    </Key>
+    <Property Name="cn" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Complainant" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="AgainsTo" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="Subject" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+    <Property Name="ActionTaken" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="DateHearing" Type="DateTime" />
+    <Property Name="TimeHearing" Type="DateTime" />
+    <Property Name="FileSupported" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="DateCreated" Type="DateTime" />
+    <Property Name="Status" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="EncodedBy" Type="Int32" />
+    <Property Name="Archive" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tbl_level">
+    <Key>
+      <PropertyRef Name="cn" />
+    </Key>
+    <Property Name="cn" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Rank" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="Remark" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tbl_logs">
+    <Key>
+      <PropertyRef Name="cn" />
+    </Key>
+    <Property Name="cn" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Action" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="By" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Modules" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="Date" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="tbl_purpose">
+    <Key>
+      <PropertyRef Name="cn" />
+    </Key>
+    <Property Name="cn" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Pupose" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tbl_subject">
+    <Key>
+      <PropertyRef Name="cn" />
+    </Key>
+    <Property Name="cn" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tbl_user">
+    <Key>
+      <PropertyRef Name="cn" />
+    </Key>
+    <Property Name="cn" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Firstname" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="Middlename" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="Lastname" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="Level_cn" Type="Int32" />
+    <Property Name="Username" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tbl_business" EntityType="Self.tbl_business" />
+    <EntitySet Name="tbl_certificate" EntityType="Self.tbl_certificate" />
+    <EntitySet Name="tbl_clearance" EntityType="Self.tbl_clearance" />
+    <EntitySet Name="tbl_dispute" EntityType="Self.tbl_dispute" />
+    <EntitySet Name="tbl_level" EntityType="Self.tbl_level" />
+    <EntitySet Name="tbl_logs" EntityType="Self.tbl_logs" />
+    <EntitySet Name="tbl_purpose" EntityType="Self.tbl_purpose" />
+    <EntitySet Name="tbl_subject" EntityType="Self.tbl_subject" />
+    <EntitySet Name="tbl_user" EntityType="Self.tbl_user" />
+    <FunctionImport Name="sp_brgyClearance" ReturnType="Collection(blotterModel.sp_brgyClearance_Result)">
+      <Parameter Name="ID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_brgyClearance_Details" ReturnType="Collection(blotterModel.sp_brgyClearance_Details_Result)">
+      <Parameter Name="ID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_certificate" ReturnType="Collection(blotterModel.sp_certificate_Result)">
+      <Parameter Name="ID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dispute" />
+    <FunctionImport Name="sp_Dispute_details" ReturnType="Collection(blotterModel.sp_Dispute_details_Result)">
+      <Parameter Name="ID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dispute_list" ReturnType="Collection(blotterModel.sp_dispute_list_Result)">
+      <Parameter Name="ID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_Indigence_Details" ReturnType="Collection(blotterModel.sp_Indigence_Details_Result)">
+      <Parameter Name="ID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_login" ReturnType="Collection(blotterModel.sp_login_Result)">
+      <Parameter Name="username" Mode="In" Type="String" />
+      <Parameter Name="password" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_purpose" ReturnType="Collection(blotterModel.sp_purpose_Result)" />
+    <FunctionImport Name="sp_subject" ReturnType="Collection(blotterModel.sp_subject_Result)" />
+    <FunctionImport Name="sp_user" ReturnType="Collection(blotterModel.sp_user_Result)" />
+    <FunctionImport Name="sp_insertUser" />
+  </EntityContainer>
+  <ComplexType Name="sp_brgyClearance_Result" />
+  <ComplexType Name="sp_brgyClearance_Details_Result" />
+  <ComplexType Name="sp_certificate_Result" />
+  <ComplexType Name="sp_Dispute_details_Result" />
+  <ComplexType Name="sp_dispute_list_Result" />
+  <ComplexType Name="sp_Indigence_Details_Result" />
+  <ComplexType Name="sp_login_Result" />
+  <ComplexType Name="sp_purpose_Result" />
+  <ComplexType Name="sp_subject_Result" />
+  <ComplexType Name="sp_user_Result" />
+</Schema>

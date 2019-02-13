@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="blotter" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;Initial Catalog=blotter;Persist Security Info=True;User ID=sa" SettingsObjectName="AppSystem.Properties.Settings" SettingsPropertyName="blotterConnectionString3" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.sp_biometric_login" Method="sp_biometric_login">
+    <ElementType Name="sp_biometric_loginResult">
+      <Column Name="cn" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="fullname" Type="System.String" DbType="VarChar(764) NOT NULL" CanBeNull="false" />
+      <Column Name="level_cn" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="biometrics" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_checkUsername" Method="sp_checkUsername">
+    <Parameter Name="ID" Parameter="iD" Type="System.String" DbType="VarChar(MAX)" />
+    <ElementType Name="sp_checkUsernameResult">
+      <Column Name="cn" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_deleteUser" Method="sp_deleteUser">
+    <Parameter Name="ID" Parameter="iD" Type="System.String" DbType="VarChar(1)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_getUsertype" Method="sp_getUsertype">
+    <Parameter Name="ID" Parameter="iD" Type="System.String" DbType="VarChar(MAX)" />
+    <ElementType Name="sp_getUsertypeResult">
+      <Column Name="cn" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Rank" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="Remark" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.[sp_insertLog()]" Method="sp_insertLog__">
+    <Parameter Name="ID1" Parameter="iD1" Type="System.String" DbType="VarChar(MAX)" />
+    <Parameter Name="ID2" Parameter="iD2" Type="System.String" DbType="VarChar(MAX)" />
+    <Parameter Name="ID3" Parameter="iD3" Type="System.String" DbType="VarChar(MAX)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_login" Method="sp_login">
+    <Parameter Name="ID1" Parameter="iD1" Type="System.String" DbType="VarChar(MAX)" />
+    <Parameter Name="ID2" Parameter="iD2" Type="System.String" DbType="VarChar(MAX)" />
+    <ElementType Name="sp_loginResult">
+      <Column Name="cn" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="fullname" Type="System.String" DbType="VarChar(764) NOT NULL" CanBeNull="false" />
+      <Column Name="Level_cn" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_selectLogs" Method="sp_selectLogs">
+    <Parameter Name="dat1" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="dat2" Type="System.DateTime" DbType="DateTime" />
+    <ElementType Name="sp_selectLogsResult">
+      <Column Name="cn" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ActionName" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="ByName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Modules" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="Date" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_selectLevel" Method="sp_selectLevel">
+    <ElementType Name="sp_selectLevelResult">
+      <Column Name="cn" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Rank" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="Remark" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.GradeSELECT" Method="GradeSELECT">
+    <ElementType Name="GradeSELECTResult">
+      <Column Name="RecID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Grade" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Remark" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SectionSELECT" Method="SectionSELECT">
+    <ElementType Name="SectionSELECTResult">
+      <Column Name="RecID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Section" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Remark" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.AccountSelectByBIOMETRICS" Method="AccountSelectByBIOMETRICS">
+    <Parameter Name="biometrics" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="AccountSelectByBIOMETRICSResult">
+      <Column Name="cn" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AVATAR" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" />
+      <Column Name="AccountName" Type="System.String" DbType="VarChar(765)" CanBeNull="true" />
+      <Column Name="LRN" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="GradeSection_" Type="System.String" DbType="VarChar(201)" CanBeNull="true" />
+      <Column Name="PhoneNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.AccountSelectByRFID" Method="AccountSelectByRFID">
+    <Parameter Name="RFID" Parameter="rFID" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="AccountSelectByRFIDResult">
+      <Column Name="cn" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AVATAR" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" />
+      <Column Name="AccountName" Type="System.String" DbType="VarChar(765)" CanBeNull="true" />
+      <Column Name="LRN" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="GradeSection_" Type="System.String" DbType="VarChar(201)" CanBeNull="true" />
+      <Column Name="PhoneNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.getSchedule" Method="getSchedule">
+    <Parameter Name="cn" Type="System.String" DbType="VarChar(100)" />
+    <ElementType Name="getScheduleResult">
+      <Column Name="" Member="Column1" Type="System.String" DbType="VarChar(113) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.CheckDTRifLOGGED" Method="CheckDTRifLOGGED">
+    <Parameter Name="RecID" Parameter="recID" Type="System.String" DbType="VarChar(20)" />
+    <ElementType Name="CheckDTRifLOGGEDResult">
+      <Column Name="c" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.DtrINSERT" Method="DtrINSERT">
+    <Parameter Name="AccountID" Parameter="accountID" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Remark" Parameter="remark" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.DailyTimeRecordSELCT" Method="DailyTimeRecordSELCT">
+    <ElementType Name="DailyTimeRecordSELCTResult">
+      <Column Name="RecID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AccountName" Type="System.String" DbType="VarChar(765)" CanBeNull="true" />
+      <Column Name="TimeIN" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Column Name="TimeOUT" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Column Name="Total" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="RowRemark" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DateCreated" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.DailyTimeRecordSelectAll" Method="DailyTimeRecordSelectAll">
+    <ElementType Name="DailyTimeRecordSelectAllResult">
+      <Column Name="RecID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AccountName" Type="System.String" DbType="VarChar(765)" CanBeNull="true" />
+      <Column Name="TimeIN" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Column Name="TimeOUT" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Column Name="Total" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="RowRemark" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DateCreated" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.lookupRequest" Method="lookupRequest">
+    <Parameter Name="Account" Parameter="account" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="lookupRequestResult">
+      <Column Name="c" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.getRequest" Method="getRequest">
+    <ElementType Name="getRequestResult">
+      <Column Name="RecID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(765)" CanBeNull="true" />
+      <Column Name="[For]" Member="For" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DateCreated" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="Approve" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_InsertUser" Method="sp_InsertUser">
+    <Parameter Name="Firstname" Parameter="firstname" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Middlename" Parameter="middlename" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Lastname" Parameter="lastname" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Email" Parameter="email" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Level_cn" Parameter="level_cn" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Password" Parameter="password" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="biometrics" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" />
+    <Parameter Name="RFID" Parameter="rFID" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="AVATAR" Parameter="aVATAR" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" />
+    <Parameter Name="LRN" Parameter="lRN" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Grade" Parameter="grade" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="SECTION_" Parameter="sECTION_" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Status" Parameter="status" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Remarks" Parameter="remarks" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="PhoneNo" Parameter="phoneNo" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="BirthDate" Parameter="birthDate" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Strand" Parameter="strand" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="SchoolYear" Parameter="schoolYear" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="GuardianName" Parameter="guardianName" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Schedule" Parameter="schedule" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Adviser" Parameter="adviser" Type="System.String" DbType="VarChar(100)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_UpdateUser" Method="sp_UpdateUser">
+    <Parameter Name="Firstname" Parameter="firstname" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Middlename" Parameter="middlename" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Lastname" Parameter="lastname" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Email" Parameter="email" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Level_cn" Parameter="level_cn" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Password" Parameter="password" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="biometrics" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" />
+    <Parameter Name="RFID" Parameter="rFID" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="AVATAR" Parameter="aVATAR" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" />
+    <Parameter Name="LRN" Parameter="lRN" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Grade" Parameter="grade" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="SECTION_" Parameter="sECTION_" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Status" Parameter="status" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Remarks" Parameter="remarks" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="PhoneNo" Parameter="phoneNo" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="RecID" Parameter="recID" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Schedule" Parameter="schedule" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Guardian" Parameter="guardian" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Adviser" Parameter="adviser" Type="System.String" DbType="VarChar(100)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.AccountSelectByID" Method="AccountSelectByID">
+    <Parameter Name="RecID" Parameter="recID" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="AccountSelectByIDResult">
+      <Column Name="cn" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Firstname" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="Middlename" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="Lastname" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="Level_cn" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Username" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="biometrics" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" />
+      <Column Name="RFID" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="AVATAR" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" />
+      <Column Name="LRN" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Grade" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Section" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Remarks" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="PhoneNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BirrthDate" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="Strand" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SchoolYear" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="GuardianName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Schedule" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="RowRemark" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Adviser" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="GradeName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Section_" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_AccountSELECT" Method="sp_AccountSELECT">
+    <Parameter Name="ID" Parameter="iD" Type="System.String" DbType="VarChar(MAX)" />
+    <ElementType Name="sp_AccountSELECTResult">
+      <Column Name="cn" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="fullname" Type="System.String" DbType="VarChar(764) NOT NULL" CanBeNull="false" />
+      <Column Name="Username" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="Level_cn" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Rank" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Remarks" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Grade" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Section" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Schedule" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Adviser" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.getAdviser" Method="getAdviser">
+    <ElementType Name="getAdviserResult">
+      <Column Name="Adviser" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.getReport" Method="getReport">
+    <Parameter Name="DateCreated" Parameter="dateCreated" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Grade" Parameter="grade" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Section_" Parameter="section_" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Adviser_" Parameter="adviser_" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="getReportResult">
+      <Column Name="RecID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AccountName" Type="System.String" DbType="VarChar(765)" CanBeNull="true" />
+      <Column Name="TimeIN" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Column Name="TimeOUT" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Column Name="Total" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="RowRemark" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DateCreated" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

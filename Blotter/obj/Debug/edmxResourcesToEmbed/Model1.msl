@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="blotterModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="tbl_business">
+      <EntityTypeMapping TypeName="blotterModel.tbl_business">
+        <MappingFragment StoreEntitySet="tbl_business">
+          <ScalarProperty Name="cn" ColumnName="cn" />
+          <ScalarProperty Name="C_Permitee" ColumnName=" Permitee" />
+          <ScalarProperty Name="BusinessName" ColumnName="BusinessName" />
+          <ScalarProperty Name="BusinessAddress" ColumnName="BusinessAddress" />
+          <ScalarProperty Name="Representative" ColumnName="Representative" />
+          <ScalarProperty Name="ContactNo" ColumnName="ContactNo" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="formOwnership" ColumnName="formOwnership" />
+          <ScalarProperty Name="BusinessNature" ColumnName="BusinessNature" />
+          <ScalarProperty Name="AssessmentDate" ColumnName="AssessmentDate" />
+          <ScalarProperty Name="PermitNo" ColumnName="PermitNo" />
+          <ScalarProperty Name="Claimed" ColumnName="Claimed" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_certificate">
+      <EntityTypeMapping TypeName="blotterModel.tbl_certificate">
+        <MappingFragment StoreEntitySet="tbl_certificate">
+          <ScalarProperty Name="cn" ColumnName="cn" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Purpose" ColumnName="Purpose" />
+          <ScalarProperty Name="ForTo" ColumnName="ForTo" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="EncodedBy" ColumnName="EncodedBy" />
+          <ScalarProperty Name="DateEncoded" ColumnName="DateEncoded" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_clearance">
+      <EntityTypeMapping TypeName="blotterModel.tbl_clearance">
+        <MappingFragment StoreEntitySet="tbl_clearance">
+          <ScalarProperty Name="cn" ColumnName="cn" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="CertificateNo" ColumnName="CertificateNo" />
+          <ScalarProperty Name="Purpose" ColumnName="Purpose" />
+          <ScalarProperty Name="OrNo" ColumnName="OrNo" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="DateIssued" ColumnName="DateIssued" />
+          <ScalarProperty Name="Issuedat" ColumnName="Issuedat" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="RF" ColumnName="RF" />
+          <ScalarProperty Name="LF" ColumnName="LF" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_dispute">
+      <EntityTypeMapping TypeName="blotterModel.tbl_dispute">
+        <MappingFragment StoreEntitySet="tbl_dispute">
+          <ScalarProperty Name="cn" ColumnName="cn" />
+          <ScalarProperty Name="Complainant" ColumnName="Complainant" />
+          <ScalarProperty Name="AgainsTo" ColumnName="AgainsTo" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ActionTaken" ColumnName="ActionTaken" />
+          <ScalarProperty Name="DateHearing" ColumnName="DateHearing" />
+          <ScalarProperty Name="TimeHearing" ColumnName="TimeHearing" />
+          <ScalarProperty Name="FileSupported" ColumnName="FileSupported" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="EncodedBy" ColumnName="EncodedBy" />
+          <ScalarProperty Name="Archive" ColumnName="Archive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_level">
+      <EntityTypeMapping TypeName="blotterModel.tbl_level">
+        <MappingFragment StoreEntitySet="tbl_level">
+          <ScalarProperty Name="cn" ColumnName="cn" />
+          <ScalarProperty Name="Rank" ColumnName="Rank" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_logs">
+      <EntityTypeMapping TypeName="blotterModel.tbl_logs">
+        <MappingFragment StoreEntitySet="tbl_logs">
+          <ScalarProperty Name="cn" ColumnName="cn" />
+          <ScalarProperty Name="Action" ColumnName="Action" />
+          <ScalarProperty Name="By" ColumnName="By" />
+          <ScalarProperty Name="Modules" ColumnName="Modules" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_purpose">
+      <EntityTypeMapping TypeName="blotterModel.tbl_purpose">
+        <MappingFragment StoreEntitySet="tbl_purpose">
+          <ScalarProperty Name="cn" ColumnName="cn" />
+          <ScalarProperty Name="Pupose" ColumnName="Pupose" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_subject">
+      <EntityTypeMapping TypeName="blotterModel.tbl_subject">
+        <MappingFragment StoreEntitySet="tbl_subject">
+          <ScalarProperty Name="cn" ColumnName="cn" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_user">
+      <EntityTypeMapping TypeName="blotterModel.tbl_user">
+        <MappingFragment StoreEntitySet="tbl_user">
+          <ScalarProperty Name="cn" ColumnName="cn" />
+          <ScalarProperty Name="Firstname" ColumnName="Firstname" />
+          <ScalarProperty Name="Middlename" ColumnName="Middlename" />
+          <ScalarProperty Name="Lastname" ColumnName="Lastname" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Level_cn" ColumnName="Level_cn" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_brgyClearance" FunctionName="blotterModel.Store.sp_brgyClearance">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="blotterModel.sp_brgyClearance_Result" />
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_brgyClearance_Details" FunctionName="blotterModel.Store.sp_brgyClearance_Details">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="blotterModel.sp_brgyClearance_Details_Result" />
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_certificate" FunctionName="blotterModel.Store.sp_certificate">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="blotterModel.sp_certificate_Result" />
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_Dispute_details" FunctionName="blotterModel.Store.sp_Dispute_details">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="blotterModel.sp_Dispute_details_Result" />
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_dispute_list" FunctionName="blotterModel.Store.sp_dispute_list">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="blotterModel.sp_dispute_list_Result" />
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_Indigence_Details" FunctionName="blotterModel.Store.sp_Indigence_Details">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="blotterModel.sp_Indigence_Details_Result" />
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_login" FunctionName="blotterModel.Store.sp_login">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="blotterModel.sp_login_Result" />
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_purpose" FunctionName="blotterModel.Store.sp_purpose">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="blotterModel.sp_purpose_Result" />
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_subject" FunctionName="blotterModel.Store.sp_subject">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="blotterModel.sp_subject_Result" />
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_user" FunctionName="blotterModel.Store.sp_user">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="blotterModel.sp_user_Result" />
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_insertUser" FunctionName="blotterModel.Store.sp_insertUser" />
+  </EntityContainerMapping>
+</Mapping>

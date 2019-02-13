@@ -1,0 +1,262 @@
+D:\DeveloperProjects\Blotter\Blotter\bin\Debug\Blotter.exe.config
+D:\DeveloperProjects\Blotter\Blotter\obj\Debug\Blotter.csprojResolveAssemblyReference.cache
+D:\DeveloperProjects\Blotter\Blotter\obj\Debug\Blotter.Main.resources
+D:\DeveloperProjects\Blotter\Blotter\obj\Debug\Blotter.Properties.Resources.resources
+D:\DeveloperProjects\Blotter\Blotter\obj\Debug\Blotter.csproj.GenerateResource.Cache
+D:\DeveloperProjects\Blotter\Blotter\bin\Debug\Blotter.exe
+D:\DeveloperProjects\Blotter\Blotter\bin\Debug\Blotter.pdb
+D:\DeveloperProjects\Blotter\Blotter\bin\Debug\MySql.Data.dll
+D:\DeveloperProjects\Blotter\Blotter\obj\Debug\Blotter.exe
+D:\DeveloperProjects\Blotter\Blotter\obj\Debug\Blotter.pdb
+D:\DeveloperProjects\Blotter\Blotter\obj\Debug\Blotter.frm_login.resources
+D:\DeveloperProjects\Blotter\Blotter\obj\Debug\Blotter.frm_server.resources
+D:\User\Dadotnetkid\Desktop\Blotter\eBlotter\eBlotter\Blotter\Blotter\bin\Debug\Blotter.exe.config
+D:\User\Dadotnetkid\Desktop\Blotter\eBlotter\eBlotter\Blotter\Blotter\obj\Debug\Blotter.exe
+D:\User\Dadotnetkid\Desktop\Blotter\eBlotter\eBlotter\Blotter\Blotter\obj\Debug\Blotter.pdb
+D:\User\Dadotnetkid\Desktop\Blotter\eBlotter\eBlotter\Blotter\Blotter\bin\Debug\Blotter.exe
+D:\User\Dadotnetkid\Desktop\Blotter\eBlotter\eBlotter\Blotter\Blotter\bin\Debug\Blotter.pdb
+D:\User\Dadotnetkid\Desktop\Blotter\eBlotter\eBlotter\Blotter\Blotter\bin\Debug\EntityFramework.dll
+D:\User\Dadotnetkid\Desktop\Blotter\eBlotter\eBlotter\Blotter\Blotter\bin\Debug\EntityFramework.xml
+D:\User\Dadotnetkid\Desktop\Blotter\eBlotter\eBlotter\Blotter\Blotter\obj\Debug\Blotter.csprojResolveAssemblyReference.cache
+D:\User\Dadotnetkid\Desktop\Blotter\eBlotter\eBlotter\Blotter\Blotter\obj\Debug\Blotter.frm_BrgyClearance.resources
+D:\User\Dadotnetkid\Desktop\Blotter\eBlotter\eBlotter\Blotter\Blotter\obj\Debug\Blotter.frm_camera.resources
+D:\User\Dadotnetkid\Desktop\Blotter\eBlotter\eBlotter\Blotter\Blotter\obj\Debug\Blotter.frm_fingerPrint.resources
+D:\User\Dadotnetkid\Desktop\Blotter\eBlotter\eBlotter\Blotter\Blotter\obj\Debug\Blotter.frm_Indigence.resources
+D:\User\Dadotnetkid\Desktop\Blotter\eBlotter\eBlotter\Blotter\Blotter\obj\Debug\Blotter.frm_login.resources
+D:\User\Dadotnetkid\Desktop\Blotter\eBlotter\eBlotter\Blotter\Blotter\obj\Debug\Blotter.frm_newBlotter.resources
+D:\User\Dadotnetkid\Desktop\Blotter\eBlotter\eBlotter\Blotter\Blotter\obj\Debug\Blotter.frm_SelecDate.resources
+D:\User\Dadotnetkid\Desktop\Blotter\eBlotter\eBlotter\Blotter\Blotter\obj\Debug\Blotter.frm_server.resources
+D:\User\Dadotnetkid\Desktop\Blotter\eBlotter\eBlotter\Blotter\Blotter\obj\Debug\Blotter.frm_user.resources
+D:\User\Dadotnetkid\Desktop\Blotter\eBlotter\eBlotter\Blotter\Blotter\obj\Debug\Blotter.Main.resources
+D:\User\Dadotnetkid\Desktop\Blotter\eBlotter\eBlotter\Blotter\Blotter\obj\Debug\Blotter.Properties.Resources.resources
+D:\User\Dadotnetkid\Desktop\Blotter\eBlotter\eBlotter\Blotter\Blotter\obj\Debug\Blotter.Report.frm_report.resources
+D:\User\Dadotnetkid\Desktop\Blotter\eBlotter\eBlotter\Blotter\Blotter\obj\Debug\Blotter.csproj.GenerateResource.Cache
+D:\User\Dadotnetkid\Desktop\Blotter\eBlotter\eBlotter\Blotter\Blotter\bin\Debug\DPFPDevNET.dll
+D:\User\Dadotnetkid\Desktop\Blotter\eBlotter\eBlotter\Blotter\Blotter\bin\Debug\DPFPEngNET.dll
+D:\User\Dadotnetkid\Desktop\Blotter\eBlotter\eBlotter\Blotter\Blotter\bin\Debug\DPFPGuiNET.dll
+D:\User\Dadotnetkid\Desktop\Blotter\eBlotter\eBlotter\Blotter\Blotter\bin\Debug\DPFPShrNET.dll
+D:\User\Dadotnetkid\Desktop\Blotter\eBlotter\eBlotter\Blotter\Blotter\bin\Debug\DPFPVerNET.dll
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\bin\Debug\Blotter.exe.config
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\bin\Debug\Blotter.exe
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\bin\Debug\Blotter.pdb
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\bin\Debug\Camera_NET.dll
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\bin\Debug\DirectShowLib-2010.dll
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\bin\Debug\EntityFramework.dll
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\bin\Debug\Camera_NET.pdb
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\bin\Debug\DirectShowLib-2010.pdb
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\bin\Debug\EntityFramework.xml
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\obj\Debug\Blotter.csprojResolveAssemblyReference.cache
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\obj\Debug\Blotter.frm_BrgyClearance.resources
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\obj\Debug\Blotter.frm_camera.resources
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\obj\Debug\Blotter.frm_fingerPrint.resources
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\obj\Debug\Blotter.frm_Indigence.resources
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\obj\Debug\Blotter.frm_login.resources
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\obj\Debug\Blotter.frm_newBlotter.resources
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\obj\Debug\Blotter.frm_SelecDate.resources
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\obj\Debug\Blotter.frm_server.resources
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\obj\Debug\Blotter.frm_user.resources
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\obj\Debug\Blotter.Main.resources
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\obj\Debug\Blotter.Properties.Resources.resources
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\obj\Debug\Blotter.Public.CameraControl.resources
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\obj\Debug\Blotter.Report.frm_report.resources
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\obj\Debug\Blotter.csproj.GenerateResource.Cache
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\obj\Debug\Blotter.exe
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\obj\Debug\Blotter.pdb
+D:\Projects\Blotter 1\Blotter\Blotter\bin\Debug\Blotter.exe.config
+D:\Projects\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.exe
+D:\Projects\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.pdb
+D:\Projects\Blotter 1\Blotter\Blotter\bin\Debug\Blotter.exe
+D:\Projects\Blotter 1\Blotter\Blotter\bin\Debug\Blotter.pdb
+D:\Projects\Blotter 1\Blotter\Blotter\bin\Debug\EntityFramework.dll
+D:\Projects\Blotter 1\Blotter\Blotter\bin\Debug\Sms.dll
+D:\Projects\Blotter 1\Blotter\Blotter\bin\Debug\Camera_NET.pdb
+D:\Projects\Blotter 1\Blotter\Blotter\bin\Debug\DirectShowLib-2010.pdb
+D:\Projects\Blotter 1\Blotter\Blotter\bin\Debug\EntityFramework.xml
+D:\Projects\Blotter 1\Blotter\Blotter\bin\Debug\Sms.pdb
+D:\Projects\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.csprojResolveAssemblyReference.cache
+D:\Projects\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.frm_BrgyClearance.resources
+D:\Projects\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.frm_camera.resources
+D:\Projects\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.frm_fingerPrint.resources
+D:\Projects\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.frm_Indigence.resources
+D:\Projects\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.frm_login.resources
+D:\Projects\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.frm_newBlotter.resources
+D:\Projects\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.frm_SelecDate.resources
+D:\Projects\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.frm_server.resources
+D:\Projects\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.frm_user.resources
+D:\Projects\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.Main.resources
+D:\Projects\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.Properties.Resources.resources
+D:\Projects\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.Public.CameraControl.resources
+D:\Projects\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.Report.frm_report.resources
+D:\Projects\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.csproj.GenerateResource.Cache
+C:\Users\Mark\Desktop\Blotter 1\Blotter 2\Blotter 1\Blotter\Blotter\bin\Debug\Blotter.exe.config
+C:\Users\Mark\Desktop\Blotter 1\Blotter 2\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.exe
+C:\Users\Mark\Desktop\Blotter 1\Blotter 2\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.pdb
+C:\Users\Mark\Desktop\Blotter 1\Blotter 2\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.csprojResolveAssemblyReference.cache
+C:\Users\Mark\Desktop\Blotter 1\Blotter 2\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.frm_BrgyClearance.resources
+C:\Users\Mark\Desktop\Blotter 1\Blotter 2\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.frm_camera.resources
+C:\Users\Mark\Desktop\Blotter 1\Blotter 2\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.frm_fingerPrint.resources
+C:\Users\Mark\Desktop\Blotter 1\Blotter 2\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.frm_Indigence.resources
+C:\Users\Mark\Desktop\Blotter 1\Blotter 2\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.frm_login.resources
+C:\Users\Mark\Desktop\Blotter 1\Blotter 2\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.frm_newBlotter.resources
+C:\Users\Mark\Desktop\Blotter 1\Blotter 2\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.frm_SelecDate.resources
+C:\Users\Mark\Desktop\Blotter 1\Blotter 2\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.frm_server.resources
+C:\Users\Mark\Desktop\Blotter 1\Blotter 2\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.frm_user.resources
+C:\Users\Mark\Desktop\Blotter 1\Blotter 2\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.Main.resources
+C:\Users\Mark\Desktop\Blotter 1\Blotter 2\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.Properties.Resources.resources
+C:\Users\Mark\Desktop\Blotter 1\Blotter 2\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.Public.CameraControl.resources
+C:\Users\Mark\Desktop\Blotter 1\Blotter 2\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.Report.frm_report.resources
+C:\Users\Mark\Desktop\Blotter 1\Blotter 2\Blotter 1\Blotter\Blotter\obj\Debug\Blotter.csproj.GenerateResource.Cache
+C:\Users\Mark\Desktop\Blotter 1\Blotter 2\Blotter 1\Blotter\Blotter\bin\Debug\Blotter.exe
+C:\Users\Mark\Desktop\Blotter 1\Blotter 2\Blotter 1\Blotter\Blotter\bin\Debug\Blotter.pdb
+C:\Users\Mark\Desktop\Blotter 1\Blotter 2\Blotter 1\Blotter\Blotter\bin\Debug\Camera_NET.dll
+C:\Users\Mark\Desktop\Blotter 1\Blotter 2\Blotter 1\Blotter\Blotter\bin\Debug\DirectShowLib-2010.dll
+C:\Users\Mark\Desktop\Blotter 1\Blotter 2\Blotter 1\Blotter\Blotter\bin\Debug\EntityFramework.dll
+C:\Users\Mark\Desktop\Blotter 1\Blotter 2\Blotter 1\Blotter\Blotter\bin\Debug\Camera_NET.pdb
+C:\Users\Mark\Desktop\Blotter 1\Blotter 2\Blotter 1\Blotter\Blotter\bin\Debug\DirectShowLib-2010.pdb
+C:\Users\Mark\Desktop\Blotter 1\Blotter 2\Blotter 1\Blotter\Blotter\bin\Debug\EntityFramework.xml
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\bin\Debug\Blotter.exe.manifest
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\bin\Debug\Blotter.application
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\obj\Debug\Blotter.exe.manifest
+D:\DeveloperProjects\eBlotter\Blotter\Blotter\obj\Debug\Blotter.application
+D:\Programs\New Projects\Win Form\Blotter\Blotter\bin\Debug\Blotter.exe.config
+D:\Programs\New Projects\Win Form\Blotter\Blotter\obj\Debug\Blotter.exe
+D:\Programs\New Projects\Win Form\Blotter\Blotter\obj\Debug\Blotter.pdb
+D:\Programs\New Projects\Win Form\Blotter\Blotter\bin\Debug\Blotter.exe.manifest
+D:\Programs\New Projects\Win Form\Blotter\Blotter\bin\Debug\Blotter.application
+D:\Programs\New Projects\Win Form\Blotter\Blotter\bin\Debug\Blotter.exe
+D:\Programs\New Projects\Win Form\Blotter\Blotter\bin\Debug\Blotter.pdb
+D:\Programs\New Projects\Win Form\Blotter\Blotter\bin\Debug\EntityFramework.dll
+D:\Programs\New Projects\Win Form\Blotter\Blotter\bin\Debug\Sms.dll
+D:\Programs\New Projects\Win Form\Blotter\Blotter\bin\Debug\Camera_NET.pdb
+D:\Programs\New Projects\Win Form\Blotter\Blotter\bin\Debug\DirectShowLib-2010.pdb
+D:\Programs\New Projects\Win Form\Blotter\Blotter\bin\Debug\EntityFramework.xml
+D:\Programs\New Projects\Win Form\Blotter\Blotter\obj\Debug\Blotter.csprojResolveAssemblyReference.cache
+D:\Programs\New Projects\Win Form\Blotter\Blotter\obj\Debug\Blotter.frm_BrgyClearance.resources
+D:\Programs\New Projects\Win Form\Blotter\Blotter\obj\Debug\Blotter.frm_camera.resources
+D:\Programs\New Projects\Win Form\Blotter\Blotter\obj\Debug\Blotter.frm_fingerPrint.resources
+D:\Programs\New Projects\Win Form\Blotter\Blotter\obj\Debug\Blotter.frm_Indigence.resources
+D:\Programs\New Projects\Win Form\Blotter\Blotter\obj\Debug\Blotter.frm_login.resources
+D:\Programs\New Projects\Win Form\Blotter\Blotter\obj\Debug\Blotter.frm_newBlotter.resources
+D:\Programs\New Projects\Win Form\Blotter\Blotter\obj\Debug\Blotter.frm_SelecDate.resources
+D:\Programs\New Projects\Win Form\Blotter\Blotter\obj\Debug\Blotter.frm_server.resources
+D:\Programs\New Projects\Win Form\Blotter\Blotter\obj\Debug\Blotter.frm_user.resources
+D:\Programs\New Projects\Win Form\Blotter\Blotter\obj\Debug\Blotter.Main.resources
+D:\Programs\New Projects\Win Form\Blotter\Blotter\obj\Debug\Blotter.Properties.Resources.resources
+D:\Programs\New Projects\Win Form\Blotter\Blotter\obj\Debug\Blotter.Public.CameraControl.resources
+D:\Programs\New Projects\Win Form\Blotter\Blotter\obj\Debug\Blotter.Report.frm_report.resources
+D:\Programs\New Projects\Win Form\Blotter\Blotter\obj\Debug\Blotter.csproj.GenerateResource.Cache
+D:\Programs\New Projects\Win Form\Blotter\Blotter\obj\Debug\Blotter.exe.manifest
+D:\Programs\New Projects\Win Form\Blotter\Blotter\obj\Debug\Blotter.application
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\bin\Debug\Blotter.exe
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\bin\Debug\Blotter.exe.config
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\bin\Debug\Blotter.exe.manifest
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\bin\Debug\Blotter.application
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\bin\Debug\Blotter.pdb
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\bin\Debug\Sms.dll
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\obj\Debug\Blotter.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\obj\Debug\Blotter.frm_BrgyClearance.resources
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\obj\Debug\Blotter.frm_camera.resources
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\obj\Debug\Blotter.frm_fingerPrint.resources
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\obj\Debug\Blotter.frm_Indigence.resources
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\obj\Debug\Blotter.frm_login.resources
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\obj\Debug\Blotter.frm_newBlotter.resources
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\obj\Debug\Blotter.frm_SelecDate.resources
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\obj\Debug\Blotter.frm_server.resources
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\obj\Debug\Blotter.frm_user.resources
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\obj\Debug\Blotter.Main.resources
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\obj\Debug\Blotter.Properties.Resources.resources
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\obj\Debug\Blotter.Public.CameraControl.resources
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\obj\Debug\Blotter.Report.frm_report.resources
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\obj\Debug\Blotter.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\obj\Debug\Blotter.exe.manifest
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\obj\Debug\Blotter.application
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\obj\Debug\Blotter.exe
+C:\Users\user\Desktop\e-Blotter v2\Blotter\Blotter\obj\Debug\Blotter.pdb
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\bin\Debug\Blotter.exe.config
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.exe
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.pdb
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.csprojResolveAssemblyReference.cache
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.frm_BrgyClearance.resources
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.frm_camera.resources
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.frm_fingerPrint.resources
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.frm_Indigence.resources
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.frm_login.resources
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.frm_newBlotter.resources
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.frm_SelecDate.resources
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.frm_server.resources
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.frm_user.resources
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.Main.resources
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.Properties.Resources.resources
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.Public.CameraControl.resources
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.Report.frm_report.resources
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.csproj.GenerateResource.Cache
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\bin\Debug\Blotter.exe.manifest
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\bin\Debug\Blotter.application
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\bin\Debug\Blotter.exe
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\bin\Debug\Blotter.pdb
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\bin\Debug\Camera_NET.dll
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\bin\Debug\DirectShowLib-2010.dll
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\bin\Debug\EntityFramework.dll
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\bin\Debug\Sms.dll
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\bin\Debug\Camera_NET.pdb
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\bin\Debug\DirectShowLib-2010.pdb
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\bin\Debug\EntityFramework.xml
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.exe.manifest
+D:\DeveloperProjects\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.application
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\bin\Debug\Blotter.exe.config
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.exe
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.pdb
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\bin\Debug\Blotter.exe.manifest
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\bin\Debug\Blotter.application
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\bin\Debug\Blotter.exe
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\bin\Debug\Blotter.pdb
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\bin\Debug\EntityFramework.dll
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\bin\Debug\Sms.dll
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\bin\Debug\Camera_NET.pdb
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\bin\Debug\DirectShowLib-2010.pdb
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\bin\Debug\EntityFramework.xml
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.csprojResolveAssemblyReference.cache
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.frm_BrgyClearance.resources
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.frm_camera.resources
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.frm_fingerPrint.resources
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.frm_Indigence.resources
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.frm_login.resources
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.frm_newBlotter.resources
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.frm_SelecDate.resources
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.frm_server.resources
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.frm_user.resources
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.Main.resources
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.Properties.Resources.resources
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.Public.CameraControl.resources
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.Report.frm_report.resources
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.csproj.GenerateResource.Cache
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.exe.manifest
+E:\DeveloperProjects\2016 3rd quarter  - 2017 1st qaurter\eBlotter\e-Blotter-v2.1\Blotter\Blotter\obj\Debug\Blotter.application
+E:\DeveloperProjects\2019\StudentAttendanceMonitoring\Blotter\Blotter\bin\Debug\Blotter.exe.config
+E:\DeveloperProjects\2019\StudentAttendanceMonitoring\Blotter\Blotter\obj\Debug\Blotter.exe
+E:\DeveloperProjects\2019\StudentAttendanceMonitoring\Blotter\Blotter\obj\Debug\Blotter.pdb
+E:\DeveloperProjects\2019\StudentAttendanceMonitoring\Blotter\Blotter\obj\Debug\Blotter.csprojResolveAssemblyReference.cache
+E:\DeveloperProjects\2019\StudentAttendanceMonitoring\Blotter\Blotter\obj\Debug\Blotter.frm_BrgyClearance.resources
+E:\DeveloperProjects\2019\StudentAttendanceMonitoring\Blotter\Blotter\obj\Debug\Blotter.frm_camera.resources
+E:\DeveloperProjects\2019\StudentAttendanceMonitoring\Blotter\Blotter\obj\Debug\Blotter.frm_fingerPrint.resources
+E:\DeveloperProjects\2019\StudentAttendanceMonitoring\Blotter\Blotter\obj\Debug\Blotter.frm_login.resources
+E:\DeveloperProjects\2019\StudentAttendanceMonitoring\Blotter\Blotter\obj\Debug\Blotter.frm_SelecDate.resources
+E:\DeveloperProjects\2019\StudentAttendanceMonitoring\Blotter\Blotter\obj\Debug\Blotter.frm_server.resources
+E:\DeveloperProjects\2019\StudentAttendanceMonitoring\Blotter\Blotter\obj\Debug\Blotter.frm_user.resources
+E:\DeveloperProjects\2019\StudentAttendanceMonitoring\Blotter\Blotter\obj\Debug\Blotter.Main.resources
+E:\DeveloperProjects\2019\StudentAttendanceMonitoring\Blotter\Blotter\obj\Debug\Blotter.Properties.Resources.resources
+E:\DeveloperProjects\2019\StudentAttendanceMonitoring\Blotter\Blotter\obj\Debug\Blotter.Public.CameraControl.resources
+E:\DeveloperProjects\2019\StudentAttendanceMonitoring\Blotter\Blotter\obj\Debug\Blotter.csproj.GenerateResource.Cache
+E:\DeveloperProjects\2019\StudentAttendanceMonitoring\Blotter\Blotter\bin\Debug\Blotter.exe.manifest
+E:\DeveloperProjects\2019\StudentAttendanceMonitoring\Blotter\Blotter\bin\Debug\Blotter.application
+E:\DeveloperProjects\2019\StudentAttendanceMonitoring\Blotter\Blotter\bin\Debug\Blotter.exe
+E:\DeveloperProjects\2019\StudentAttendanceMonitoring\Blotter\Blotter\bin\Debug\Blotter.pdb
+E:\DeveloperProjects\2019\StudentAttendanceMonitoring\Blotter\Blotter\bin\Debug\EntityFramework.dll
+E:\DeveloperProjects\2019\StudentAttendanceMonitoring\Blotter\Blotter\bin\Debug\Sms.dll
+E:\DeveloperProjects\2019\StudentAttendanceMonitoring\Blotter\Blotter\bin\Debug\Camera_NET.pdb
+E:\DeveloperProjects\2019\StudentAttendanceMonitoring\Blotter\Blotter\bin\Debug\DirectShowLib-2010.pdb
+E:\DeveloperProjects\2019\StudentAttendanceMonitoring\Blotter\Blotter\bin\Debug\EntityFramework.xml
+E:\DeveloperProjects\2019\StudentAttendanceMonitoring\Blotter\Blotter\obj\Debug\Blotter.exe.manifest
+E:\DeveloperProjects\2019\StudentAttendanceMonitoring\Blotter\Blotter\obj\Debug\Blotter.application
