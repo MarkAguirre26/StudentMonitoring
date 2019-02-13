@@ -152,7 +152,7 @@ namespace AppSystem
                 fmain.getAccounts("%");
                 FingerPrintScanner.FingerprintTemplate = null;
                 this.Close();
-
+                //
             }
             else
             {
