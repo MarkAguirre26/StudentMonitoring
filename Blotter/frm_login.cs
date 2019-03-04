@@ -40,7 +40,8 @@ namespace AppSystem
             ini = new IniFile(Tool.confg);
             try
             {
-                biometrics = new DataClasses1DataContext(Tool.ConnectionString).sp_biometric_login().ToList();
+             //   biometrics = new DataClasses1DataContext(Tool.ConnectionString).sp_biometric_login().ToList();
+                new DataClasses1DataContext(Tool.ConnectionString).Connection.Open();
 
             }
             catch (Exception)
@@ -50,14 +51,14 @@ namespace AppSystem
             label3.Text = Tool.Systemname;
         }
 
-        private async void cmd_login_Click(object sender, EventArgs e)
+        private  void cmd_login_Click(object sender, EventArgs e)
         {
 
             try
             {
                 DataClasses1DataContext db = new DataClasses1DataContext(Tool.ConnectionString);
                 this.Text = "Connecting to database";
-                await db.Connection.OpenAsync();
+     
                 var list = db.sp_login(txt_username.Text, EncodeString.Encrypt(txt_password.Text)).ToList();
 
                 if (list.Count >= 1)
