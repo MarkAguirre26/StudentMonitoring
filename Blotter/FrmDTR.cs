@@ -50,7 +50,7 @@ namespace AppSystem
             string[] scheduleArray = item.Column1.ToString().Split('/');
             string TimeIn = scheduleArray[0];
             string TimeOut = scheduleArray[1];
-            string approve = scheduleArray[2];
+            //string approve = scheduleArray[2];
 
             string remark = "";
 
@@ -124,7 +124,7 @@ namespace AppSystem
                                 SaveDtr();
                                 DailyTimeRecordSELECT();
 
-                                new Messaging().sendSms(PhoneNo, lblName.Text + " \n Time: " + DateTime.Now);
+                                new Messaging().sendSms(PhoneNo.Replace("-",""), lblName.Text + " \n Time: " + DateTime.Now);
 
                                 lblUseFingerprint.Text = "Confirmed.";
                                 this.Tag = null;
@@ -222,10 +222,15 @@ namespace AppSystem
 
         void DailyTimeRecordSELECT()
         {
+           
+            if (this.Tag != null)
+            {
+
+            
             List<dtr> dtrList = new List<dtr>();
             DataClasses1DataContext db = new DataClasses1DataContext(Tool.ConnectionString);
-            var list = db.DailyTimeRecordSELCT().ToList();
-
+            var list = db.DailyTimeRecordSELCT(this.Tag.ToString()).ToList();
+           
 
 
 
@@ -259,6 +264,7 @@ namespace AppSystem
             }
             dg_DTR.Refresh();
             dg_DTR.DataSource = dtrList;
+            }
         }
 
         private void FrmDTR_FormClosing(object sender, FormClosingEventArgs e)

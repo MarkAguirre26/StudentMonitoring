@@ -95,12 +95,6 @@
       <Column Name="PhoneNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
     </ElementType>
   </Function>
-  <Function Name="dbo.getSchedule" Method="getSchedule">
-    <Parameter Name="cn" Type="System.String" DbType="VarChar(100)" />
-    <ElementType Name="getScheduleResult">
-      <Column Name="" Member="Column1" Type="System.String" DbType="VarChar(113) NOT NULL" CanBeNull="false" />
-    </ElementType>
-  </Function>
   <Function Name="dbo.CheckDTRifLOGGED" Method="CheckDTRifLOGGED">
     <Parameter Name="RecID" Parameter="recID" Type="System.String" DbType="VarChar(20)" />
     <ElementType Name="CheckDTRifLOGGEDResult">
@@ -111,17 +105,6 @@
     <Parameter Name="AccountID" Parameter="accountID" Type="System.String" DbType="VarChar(50)" />
     <Parameter Name="Remark" Parameter="remark" Type="System.String" DbType="VarChar(50)" />
     <Return Type="System.Int32" />
-  </Function>
-  <Function Name="dbo.DailyTimeRecordSELCT" Method="DailyTimeRecordSELCT">
-    <ElementType Name="DailyTimeRecordSELCTResult">
-      <Column Name="RecID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
-      <Column Name="AccountName" Type="System.String" DbType="VarChar(765)" CanBeNull="true" />
-      <Column Name="TimeIN" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
-      <Column Name="TimeOUT" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
-      <Column Name="Total" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
-      <Column Name="RowRemark" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
-      <Column Name="DateCreated" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
-    </ElementType>
   </Function>
   <Function Name="dbo.DailyTimeRecordSelectAll" Method="DailyTimeRecordSelectAll">
     <ElementType Name="DailyTimeRecordSelectAllResult">
@@ -256,6 +239,24 @@
     <Parameter Name="Section_" Parameter="section_" Type="System.String" DbType="VarChar(50)" />
     <Parameter Name="Adviser_" Parameter="adviser_" Type="System.String" DbType="VarChar(50)" />
     <ElementType Name="getReportResult">
+      <Column Name="RecID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AccountName" Type="System.String" DbType="VarChar(765)" CanBeNull="true" />
+      <Column Name="TimeIN" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Column Name="TimeOUT" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Column Name="Total" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="RowRemark" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DateCreated" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.getSchedule" Method="getSchedule">
+    <Parameter Name="cn" Type="System.String" DbType="VarChar(100)" />
+    <ElementType Name="getScheduleResult">
+      <Column Name="" Member="Column1" Type="System.String" DbType="VarChar(102) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.DailyTimeRecordSELCT" Method="DailyTimeRecordSELCT">
+    <Parameter Name="AccountID" Parameter="accountID" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="DailyTimeRecordSELCTResult">
       <Column Name="RecID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
       <Column Name="AccountName" Type="System.String" DbType="VarChar(765)" CanBeNull="true" />
       <Column Name="TimeIN" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />

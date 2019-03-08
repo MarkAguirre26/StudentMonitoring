@@ -40,8 +40,8 @@ namespace AppSystem
             ini = new IniFile(Tool.confg);
             try
             {
-             //   biometrics = new DataClasses1DataContext(Tool.ConnectionString).sp_biometric_login().ToList();
-                new DataClasses1DataContext(Tool.ConnectionString).Connection.Open();
+                biometrics = new DataClasses1DataContext(Tool.ConnectionString).sp_biometric_login().ToList();
+             
 
             }
             catch (Exception)
@@ -71,16 +71,19 @@ namespace AppSystem
                         fmain.UserCn = i.cn.ToString();
                     }
 
-                    if (fmain.UserLevel != "3")
-                    {
-                        fmain.isLogin = true;
+                    //if (fmain.UserLevel != "3")
+                    //{
+                       
                         db.sp_insertLog__("Login", fmain.fullname, "Login");
-                        this.Close();
+                     
                         fmain.Text = Tool.Systemname;
                         fmain.buttonSelectection(fmain.pb1);
                         fmain.DailyTimeRecordSELECT();
                         fmain.Show();
-                    }
+                    //}
+
+                    fmain.isLogin = true;
+                    this.Close();
 
 
                 }

@@ -146,13 +146,6 @@ namespace AppSystem
 			return ((ISingleResult<AccountSelectByRFIDResult>)(result.ReturnValue));
 		}
 		
-		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.getSchedule")]
-		public ISingleResult<getScheduleResult> getSchedule([global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(100)")] string cn)
-		{
-			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), cn);
-			return ((ISingleResult<getScheduleResult>)(result.ReturnValue));
-		}
-		
 		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.CheckDTRifLOGGED")]
 		public ISingleResult<CheckDTRifLOGGEDResult> CheckDTRifLOGGED([global::System.Data.Linq.Mapping.ParameterAttribute(Name="RecID", DbType="VarChar(20)")] string recID)
 		{
@@ -165,13 +158,6 @@ namespace AppSystem
 		{
 			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), accountID, remark);
 			return ((int)(result.ReturnValue));
-		}
-		
-		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.DailyTimeRecordSELCT")]
-		public ISingleResult<DailyTimeRecordSELCTResult> DailyTimeRecordSELCT()
-		{
-			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())));
-			return ((ISingleResult<DailyTimeRecordSELCTResult>)(result.ReturnValue));
 		}
 		
 		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.DailyTimeRecordSelectAll")]
@@ -277,6 +263,20 @@ namespace AppSystem
 		{
 			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), dateCreated, grade, section_, adviser_);
 			return ((ISingleResult<getReportResult>)(result.ReturnValue));
+		}
+		
+		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.getSchedule")]
+		public ISingleResult<getScheduleResult> getSchedule([global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(100)")] string cn)
+		{
+			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), cn);
+			return ((ISingleResult<getScheduleResult>)(result.ReturnValue));
+		}
+		
+		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.DailyTimeRecordSELCT")]
+		public ISingleResult<DailyTimeRecordSELCTResult> DailyTimeRecordSELCT([global::System.Data.Linq.Mapping.ParameterAttribute(Name="AccountID", DbType="VarChar(50)")] string accountID)
+		{
+			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), accountID);
+			return ((ISingleResult<DailyTimeRecordSELCTResult>)(result.ReturnValue));
 		}
 	}
 	
@@ -1026,32 +1026,6 @@ namespace AppSystem
 		}
 	}
 	
-	public partial class getScheduleResult
-	{
-		
-		private string _Column1;
-		
-		public getScheduleResult()
-		{
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Name="", Storage="_Column1", DbType="VarChar(113) NOT NULL", CanBeNull=false)]
-		public string Column1
-		{
-			get
-			{
-				return this._Column1;
-			}
-			set
-			{
-				if ((this._Column1 != value))
-				{
-					this._Column1 = value;
-				}
-			}
-		}
-	}
-	
 	public partial class CheckDTRifLOGGEDResult
 	{
 		
@@ -1073,140 +1047,6 @@ namespace AppSystem
 				if ((this._c != value))
 				{
 					this._c = value;
-				}
-			}
-		}
-	}
-	
-	public partial class DailyTimeRecordSELCTResult
-	{
-		
-		private int _RecID;
-		
-		private string _AccountName;
-		
-		private string _TimeIN;
-		
-		private string _TimeOUT;
-		
-		private System.Nullable<decimal> _Total;
-		
-		private string _RowRemark;
-		
-		private string _DateCreated;
-		
-		public DailyTimeRecordSELCTResult()
-		{
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_RecID", DbType="Int NOT NULL")]
-		public int RecID
-		{
-			get
-			{
-				return this._RecID;
-			}
-			set
-			{
-				if ((this._RecID != value))
-				{
-					this._RecID = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_AccountName", DbType="VarChar(765)")]
-		public string AccountName
-		{
-			get
-			{
-				return this._AccountName;
-			}
-			set
-			{
-				if ((this._AccountName != value))
-				{
-					this._AccountName = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TimeIN", DbType="VarChar(7)")]
-		public string TimeIN
-		{
-			get
-			{
-				return this._TimeIN;
-			}
-			set
-			{
-				if ((this._TimeIN != value))
-				{
-					this._TimeIN = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TimeOUT", DbType="VarChar(7)")]
-		public string TimeOUT
-		{
-			get
-			{
-				return this._TimeOUT;
-			}
-			set
-			{
-				if ((this._TimeOUT != value))
-				{
-					this._TimeOUT = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Total", DbType="Decimal(10,2)")]
-		public System.Nullable<decimal> Total
-		{
-			get
-			{
-				return this._Total;
-			}
-			set
-			{
-				if ((this._Total != value))
-				{
-					this._Total = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_RowRemark", DbType="VarChar(100)")]
-		public string RowRemark
-		{
-			get
-			{
-				return this._RowRemark;
-			}
-			set
-			{
-				if ((this._RowRemark != value))
-				{
-					this._RowRemark = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DateCreated", DbType="NVarChar(4000)")]
-		public string DateCreated
-		{
-			get
-			{
-				return this._DateCreated;
-			}
-			set
-			{
-				if ((this._DateCreated != value))
-				{
-					this._DateCreated = value;
 				}
 			}
 		}
@@ -2214,6 +2054,166 @@ namespace AppSystem
 		private string _DateCreated;
 		
 		public getReportResult()
+		{
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_RecID", DbType="Int NOT NULL")]
+		public int RecID
+		{
+			get
+			{
+				return this._RecID;
+			}
+			set
+			{
+				if ((this._RecID != value))
+				{
+					this._RecID = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_AccountName", DbType="VarChar(765)")]
+		public string AccountName
+		{
+			get
+			{
+				return this._AccountName;
+			}
+			set
+			{
+				if ((this._AccountName != value))
+				{
+					this._AccountName = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TimeIN", DbType="VarChar(7)")]
+		public string TimeIN
+		{
+			get
+			{
+				return this._TimeIN;
+			}
+			set
+			{
+				if ((this._TimeIN != value))
+				{
+					this._TimeIN = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TimeOUT", DbType="VarChar(7)")]
+		public string TimeOUT
+		{
+			get
+			{
+				return this._TimeOUT;
+			}
+			set
+			{
+				if ((this._TimeOUT != value))
+				{
+					this._TimeOUT = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Total", DbType="Decimal(10,2)")]
+		public System.Nullable<decimal> Total
+		{
+			get
+			{
+				return this._Total;
+			}
+			set
+			{
+				if ((this._Total != value))
+				{
+					this._Total = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_RowRemark", DbType="VarChar(100)")]
+		public string RowRemark
+		{
+			get
+			{
+				return this._RowRemark;
+			}
+			set
+			{
+				if ((this._RowRemark != value))
+				{
+					this._RowRemark = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DateCreated", DbType="NVarChar(4000)")]
+		public string DateCreated
+		{
+			get
+			{
+				return this._DateCreated;
+			}
+			set
+			{
+				if ((this._DateCreated != value))
+				{
+					this._DateCreated = value;
+				}
+			}
+		}
+	}
+	
+	public partial class getScheduleResult
+	{
+		
+		private string _Column1;
+		
+		public getScheduleResult()
+		{
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Name="", Storage="_Column1", DbType="VarChar(102) NOT NULL", CanBeNull=false)]
+		public string Column1
+		{
+			get
+			{
+				return this._Column1;
+			}
+			set
+			{
+				if ((this._Column1 != value))
+				{
+					this._Column1 = value;
+				}
+			}
+		}
+	}
+	
+	public partial class DailyTimeRecordSELCTResult
+	{
+		
+		private int _RecID;
+		
+		private string _AccountName;
+		
+		private string _TimeIN;
+		
+		private string _TimeOUT;
+		
+		private System.Nullable<decimal> _Total;
+		
+		private string _RowRemark;
+		
+		private string _DateCreated;
+		
+		public DailyTimeRecordSELCTResult()
 		{
 		}
 		
